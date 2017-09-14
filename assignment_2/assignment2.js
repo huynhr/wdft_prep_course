@@ -25,3 +25,33 @@ for(var i = 1; i <=7; i++) {
     console.log(hash);
     hash+= '#'
 }
+
+// input: 
+// output: an 8 * 8 grid line where it starts with #space# so # # # # 
+
+function checkersBoard() {
+    // printing the row
+    // printing the column
+    // printing '#' 
+    // printing ' '
+    // each time there's a new line, the first char is either a ' ' or a '#'
+    // pritning the rows
+    var pyramid = '\n';
+    for(var i = 1; i <=8; i++) {
+        // we need to print the column now 
+        if(i % 2 !== 0) {
+            for(var j = 1; j <=4; j++) {
+                pyramid += '# ';
+            }
+        } else {
+            for(var k = 1; k <=4; k++) {
+                pyramid += ' #';
+            }
+        }
+        
+        pyramid += '\n'
+    }
+   return pyramid;
+}
+
+checkersBoard();
