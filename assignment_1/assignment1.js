@@ -3,6 +3,7 @@ Exercise #1
 Initialize an empty array below in the variable numbers.
 */
 var numbers;
+console.log('Hello World');
 
 
 /*
