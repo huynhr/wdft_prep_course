@@ -4,6 +4,7 @@ Initialize an empty array below in the variable numbers.
 */
 var numbers;
 console.log('Hello World');
+console.log('this is pretty cool');
 
 
 /*
